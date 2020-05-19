@@ -1,0 +1,338 @@
+/*css Reset  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* main style */
+html,
+body {
+  background-color: rgb(253, 245, 234);
+  line-height: 1.7em;
+  font-family: "Satisfy", cursive;
+}
+
+/* Utility Class */
+/* padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+.containerHead {
+  margin: auto;
+  max-width: 70%;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.neonText {
+  color: rgb(255, 185, 104);
+}
+.bg-light {
+  background-color: rgba(248, 208, 163, 0.815);
+}
+
+
+
+.lead {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  background-color: rgba(253, 245, 234, 0.342);
+  font-weight: bold;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(255, 185, 104);
+}
+
+.btn-light {
+  display: inline-block;
+  font-size: 18px;
+  background-color: rgba(246, 201, 150, 0.739);
+  font-weight: bold;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+}
+
+#navbar {
+  background-color: rgb(253, 245, 234);
+  overflow: auto;
+  text-align: center;
+}
+
+#navbar .logo {
+  float: left;
+  padding: 20px;
+}
+
+.nabvarList {
+  float: right;
+  /* background-color: brown; */
+}
+
+#navbar ul li {
+  font-size: 18px;
+  display: block;
+  padding: 20px;
+  float: left;
+  list-style: none;
+  font-weight: bold;
+}
+
+#navbar ul li:hover {
+  background-color: rgba(246, 201, 150, 0.739);
+}
+
+#navbar ul li a {
+  display: block;
+}
+
+#navbar ul li a:hover {
+  color: rgb(255, 185, 104);
+}
+/* ShowCase */
+#showcase {
+  background: url("../Images/sea-1337565_1920.jpg") no-repeat center
+    center/cover;
+  min-height: 600px;
+}
+
+.matt {
+  min-height: 600px;
+  background-color: rgba(160, 172, 195, 0.623);
+}
+
+#showcase .showcase-content {
+  color: black;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+  font-size: 24px;
+}
+
+/* home-info */
+#home-info {
+  height: 450px;
+}
+
+#home-info .info-img {
+  float: left;
+  background: url("../Images/woman-1245817_1920.jpg") no-repeat center center/cover;
+  width: 50%;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  line-height: 1.8em;
+  text-align: center;
+  overflow: hidden;
+  padding: 50px 30px;
+}
+
+#home-info .info-content h2 {
+  font-weight: bold;
+}
+
+#home-info .info-content p {
+  padding-bottom: 40px;
+}
+
+/* features */
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 40px;
+  text-align: center;
+}
+
+/* .box i {
+  margin-bottom: 10px;
+} */
+
+.hotel-icon {
+  margin: auto;
+  color: black;
+  width: 40px;
+  height: 40px;
+  background: url("../Images/hotel.png") no-repeat center center/cover;
+}
+
+.food-icon {
+  margin: auto;
+  color: black;
+  width: 40px;
+  height: 40px;
+  background: url("../Images/lunch.png") no-repeat center center/cover;
+}
+
+.gym-icon {
+  margin: auto;
+  color: black;
+  width: 40px;
+  height: 40px;
+  background: url("../Images/gym.png") no-repeat center center/cover;
+}
+
+/* About Info Page */
+#about-info {
+}
+
+#about-info .info-left {
+  text-align: left;
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  
+}
+
+#about-info .info-left  p{
+  padding: 0 20px;
+}
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+#testimonials {
+  height: 100%;
+  background: url("../Images/stone-circles-1853340_1920.jpg") no-repeat center center/cover;
+  padding-top: 60px;
+}
+
+#testimonials h2 {
+ text-align: center;
+ padding-bottom: 40px;
+}
+
+#testimonials .testimonials {
+  max-width: 80%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+#testimonials .testimonials img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+width: 150px;
+}
+
+#testimonials .testimonials p{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.7em;
+}
+
+/* Contact Form Page */
+#contact-form {
+  max-width: 80%;
+  margin: auto;
+  padding: 0 40px;
+ 
+}
+
+#contact-form .form-group {
+margin-bottom: 20px;
+padding: 20px;
+}
+
+#contact-form h1 {
+  padding: 20px 0;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contact-form input, #contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+  outline: none;
+  border: 2px solid orangered;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+#contact-form button {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#contact-info {
+  padding-top: 40px;
+}
+
+/* main footer */
+#main-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+}
